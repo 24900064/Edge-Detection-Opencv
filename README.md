@@ -1,4 +1,4 @@
-# edge-detection-opencv
+# Edge-Detection-Opencv
 
 ## Aim
 
@@ -28,21 +28,18 @@ Load an image using `cv2.imread()`.
 Convert the image to grayscale.
 
 ### Step 4:
-Apply **Sobel operator** using OpenCV to detect edges.
+Apply **Original Image** using OpenCV to detect edges.
 
 ### Step 5:
-Apply **Prewitt operator** using custom kernels.
+Apply **Sobel Edge Detector** using custom kernels.
 
 ### Step 6:
-Apply **Roberts operator** using custom kernels.
-
-### Step 7:
 Apply **Laplacian operator** using OpenCV.
 
-### Step 8:
+### Step 7:
 Apply **Canny edge detector** using OpenCV.
 
-### Step 9:
+### Step 8:
 Display all edge-detected images for comparison.
 
 ---
